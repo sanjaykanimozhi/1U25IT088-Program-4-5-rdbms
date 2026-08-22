@@ -1,4 +1,4 @@
-USE CollegeDB;
+CollegeDB;
 
 -- Insert records into existing Student table
 INSERT INTO Student
