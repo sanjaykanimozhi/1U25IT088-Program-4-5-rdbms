@@ -19,18 +19,18 @@ CREATE TABLE Course (
     CourseID NUMERIC(10),
     CourseName VARCHAR(30),
     Credits NUMERIC(10),
-    DepartmentID VARCHAR(30)
+    DepartmentID NUMERIC(30)
 );
 
 -- Insert records into Course table
 INSERT INTO Course
-VALUES (2025011, 'Information Technology', 95, 'BSC IT');
+VALUES (20250001, 'Information Technology', 95, '123001');
 
 INSERT INTO Course
-VALUES (2025002, 'Computer Science', 90, 'BSC CS');
+VALUES (2025002, 'Computer Science', 90, '123002');
 
 INSERT INTO Course
-VALUES (2025003, 'Information Technology', 85, 'BCA IT');
+VALUES (2025003, 'Information Technology', 85, '123003');
 
 -- Display Course table structure
 DESCRIBE Course;
